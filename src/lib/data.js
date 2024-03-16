@@ -1,0 +1,121 @@
+export const plants = [
+  {
+    id: 1,
+    name: "Olive Tree",
+    subtitle: 'Measures 8-16" tall',
+    description: `The olive tree is a versatile evergreen that can grow in a variety of soil types and is drought-tolerant. It is a slow-growing tree that can live for a very long time. The olive tree is a symbol of peace, wisdom, and abundance. It is also a symbol of victory and is often used in competitions and games.`,
+    price: 10,
+    image: [
+      "/images/plantHolder.png",
+      "/images/plant2.webp",
+      "/images/plant3.webp",
+      "/images/plant4.webp",
+    ],
+    colorOptions: ["Tan", "Green", "White"],
+    potStyle: ["GrowPot", "Ceramic"],
+    sizeOptions: ["Small", "Medium", "Large"],
+  },
+
+  {
+    id: 2,
+    name: "Cactus",
+    subtitle: 'Measures 4-8" tall',
+    price: 15,
+    image: [
+      "/images/plantHolder.png",
+      "/images/plant2.webp",
+      "/images/plant3.webp",
+      "/images/plant4.webp",
+    ],
+    colorOptions: ["Tan", "Green", "White"],
+    potStyle: ["GrowPot", "Ceramic"],
+    sizeOptions: ["Small", "Medium"],
+  },
+  {
+    id: 3,
+    name: "Snake Plant",
+    subtitle: 'Measures 12-24" tall',
+    price: 20,
+    image:
+      "https://images.unsplash.com/photo-1617159262210-1b8f3e6a3e0e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1",
+    colorOptions: ["Tan", "Green", "White"],
+    potStyle: ["GrowPot", "Ceramic"],
+    sizeOptions: ["Small", "Medium"],
+  },
+  {
+    id: 4,
+    name: "Spider Plant",
+    subtitle: 'Measures 12-24" tall',
+    price: 25,
+    image:
+      "https://images.unsplash.com/photo-1617159262210-1b8f3e6a3e0e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1",
+    colorOptions: ["Tan", "Green", "White"],
+    potStyle: ["GrowPot", "Ceramic"],
+    sizeOptions: ["Small", "Medium"],
+  },
+  {
+    id: 5,
+    name: "Rubber Plant",
+    subtitle: 'Measures 12-24" tall',
+    price: 30,
+    image:
+      "https://images.unsplash.com/photo-1617159262210-1b8f3e6a3e0e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1",
+    colorOptions: ["Tan", "Green", "White"],
+    potStyle: ["GrowPot", "Ceramic"],
+    sizeOptions: ["Small", "Medium"],
+  },
+  {
+    id: 6,
+    name: "Fiddle Leaf Fig",
+    subtitle: 'Measures 12-24" tall',
+    price: 35,
+    image:
+      "https://images.unsplash.com/photo-1617159262210-1b8f3e6a3e0e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1",
+    colorOptions: ["Tan", "Green", "White"],
+    potStyle: ["GrowPot", "Ceramic"],
+    sizeOptions: ["Small", "Medium"],
+  },
+  {
+    id: 7,
+    name: "Pothos",
+    subtitle: 'Measures 12-24" tall',
+    price: 40,
+    image:
+      "https://images.unsplash.com/photo-1617159262210-1b8f3e6a3e0e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1",
+    colorOptions: ["Tan", "Green", "White"],
+    potStyle: ["GrowPot", "Ceramic"],
+    sizeOptions: ["Small", "Medium"],
+  },
+  {
+    id: 8,
+    name: "ZZ Plant",
+    subtitle: 'Measures 12-24" tall',
+    price: 45,
+    image:
+      "https://images.unsplash.com/photo-1617159262210-1b8f3e6a3e0e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1",
+    colorOptions: ["Tan", "Green", "White"],
+    potStyle: ["GrowPot", "Ceramic"],
+    sizeOptions: ["Small", "Medium"],
+  },
+  {
+    id: 9,
+    name: "Monstera",
+    subtitle: 'Measures 12-24" tall',
+    price: 50,
+    image:
+      "https://images.unsplash.com/photo-1617159262210-1b8f3e6a3e0e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1",
+    colorOptions: ["Tan", "Green", "White"],
+    potStyle: ["GrowPot", "Ceramic"],
+    sizeOptions: ["Small", "Medium"],
+  },
+  {
+    id: 10,
+    name: "Philodendron",
+    subtitle: 'Measures 12-24" tall',
+    price: 55,
+    image: "", // Will be filled in later
+    colorOptions: ["Tan", "Green", "White"],
+    potStyle: ["GrowPot", "Ceramic"],
+    sizeOptions: ["Small", "Medium"],
+  },
+];

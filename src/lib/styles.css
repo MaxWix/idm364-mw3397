@@ -1,0 +1,114 @@
+@font-face {
+  font-family: encodeSansReg;
+  src: url(Fonts/EncodeSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: encodeSansLight;
+  src: url(Fonts/EncodeSans-Light.ttf);
+  font-weight: lighter;
+}
+@font-face {
+  font-family: encodeSansMedium;
+  src: url(Fonts/EncodeSans-Medium.ttf);
+  font-weight: 650;
+}
+
+@font-face {
+  font-family: encodeSansBold;
+  src: url(Fonts/EncodeSans-Bold.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: playfairBlack;
+  src: url(Fonts/PlayfairDisplay-Black.ttf);
+  font-style: 1000;
+}
+
+@font-face {
+  font-family: playfairBold;
+  src: url(Fonts/PlayfairDisplay-Bold.ttf);
+  font-style: bold;
+}
+
+@font-face {
+  font-family: playfairRegular;
+  src: url(Fonts/PlayfairDisplay-Regular.ttf);
+  font-style: 400;
+}
+
+:root {
+  --dark-green: #273401;
+  --tan: #f6f5f0;
+  --light-green: #627f26;
+}
+
+body {
+  margin: 0;
+  background-color: var(--tan);
+}
+
+header {
+  background-color: var(--tan);
+}
+
+img {
+  width: 100%;
+}
+
+h1 {
+  font-family: "playfairBlack";
+  margin: 0;
+  padding: 1rem 1rem 1rem 0;
+  font-size: 46px;
+}
+
+h2 {
+  margin: 0;
+  font-size: 54px;
+  font-family: "encodeSansLight";
+}
+
+h3 {
+  font-family: "playfairReg";
+  font-size: 35px;
+  margin: 0;
+}
+
+h4 {
+  font-family: "encodeSansReg";
+  margin: 0;
+  font-size: 21px;
+}
+
+h5 {
+  font-family: "encodeSansReg";
+  font-size: 16px;
+  margin: 0;
+}
+
+p {
+  font-family: "encodeSansReg";
+  margin: 0;
+  font-size: 16px;
+}
+
+button {
+  font-family: "encodeSansReg";
+  font-weight: 200;
+}
+
+a {
+  text-decoration: none;
+  color: var(--dark-green);
+}
+
+a:hover {
+  color: var(--light-green);
+}
+
+a:visted {
+  text-decoration: none;
+  color: var(--dark-green);
+}
